@@ -11,9 +11,30 @@ namespace TechOnSite.Controllers
     public class ServicesController : Controller
     {
         // GET: /<controller>/
-        public IActionResult Index()
+        public IActionResult MalWareRemoval()
         {
             return View();
         }
+        public IActionResult Networking()
+        {
+            return View();
+        }
+        public IActionResult Data()
+        {
+            return View();
+        }
+        public IActionResult Cabling()
+        {
+            return View();
+        }
+        public IActionResult LaptopRepair()
+        {
+            return View();
+        }
+        public IActionResult DesktopRepair()
+        {
+            return View();
+        }
+
     }
 }
